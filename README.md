@@ -38,7 +38,7 @@ download selenium
     $sudo pip install selenium
 ### Start coding
     
-    $ touch selenium.py
+    $ touch web.py
 ## Resources
 - [Installing Selenium and ChromeDriver on Ubuntu](https://christopher.su/2015/selenium-chromedriver-ubuntu/)
 - [ubuntu上安裝及使用selenium和google-chrome和chromedriver](https://www.itread01.com/content/1543109607.html)
