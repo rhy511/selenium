@@ -10,14 +10,14 @@
 ### Install google chrome
 download google chrome
 
-	$sudo dpkg -i google-chrome-stable_current_amd64.deb
-	$sudo apt-get install -f  
+	$ sudo dpkg -i google-chrome-stable_current_amd64.deb
+	$ sudo apt-get install -f  
 
 or if you use the older version of google chrome, you may do this step
 
-	$sudo apt-get update
-    $sudo apt-get install -y google-chrome-stable
-    $google chrome -version
+	$ sudo apt-get update
+    $ sudo apt-get install -y google-chrome-stable
+    $ google-chrome -version
 
 ### Install chromedriver
 check the **version of google chrome**
@@ -26,16 +26,16 @@ check the **version of google chrome**
 
 download the **corresponding version of [chromedriver](https://chromedriver.chromium.org/downloads)**
 
-	$sudo unzip unzip chromedriver_linux64.zip
-    $sudo chmod +x chromedriver
-	$sudo mv -f chromedriver /usr/local/bin
+	$ sudo unzip unzip chromedriver_linux64.zip
+    $ sudo chmod +x chromedriver
+	$ sudo mv -f chromedriver /usr/local/bin
 
 ### Selenium
 
 download selenium
 
-	$sudo apt install python-pip
-    $sudo pip install selenium
+	$ sudo apt install python-pip
+    $ sudo pip install selenium
 ### Start coding
     
     $ touch web.py
